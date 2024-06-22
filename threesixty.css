@@ -1,0 +1,31 @@
+ol, ul {
+	list-style: none;
+}
+#threesixty {
+	position:absolute;	
+	overflow:hidden;
+	top:50%;
+	left:50%;
+	width:960px;
+	height:540px;
+	margin-left:-480px;
+	margin-top:-270px;
+}
+#threesixty_images {
+	display: none;
+}
+#threesixty img {
+	position:absolute;
+	top:0;
+	width:60%;
+	height:80%;
+}
+.current-image {
+	visibility:visible;
+	width:100%;
+}
+.previous-image {
+	visibility:hidden;
+	width:0;
+}
+
